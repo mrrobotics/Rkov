@@ -1,5 +1,6 @@
 #chris Wlodychak
 #markov chain solver from an NxN probability matrix
+#requires the following R package(s): expm
 #note: no input testing yet still to-do
 Input_matrix <- t(matrix(c(.7,0.1,0.1,0.1, 0.3,0.2,0.3,0.2, 0.3,0.1,0.2,0.4, 0.2,0.1,0.2,0.5),4,4))
 Input_matrix # test the input matrix
